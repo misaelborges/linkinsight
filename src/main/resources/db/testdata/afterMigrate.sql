@@ -16,7 +16,7 @@ insert into cidade (id, nome) values (4, 'Balneário Rincão');
 insert into cliente (id, nome, sobrenome, email, celular, cpf, endereco_cidade_nome, endereco_cep, endereco_logradouro, endereco_numero,
                      endereco_complemento, endereco_bairro, senha, genero, velocidade_internet)
 values (1, 'João', 'Da Silva', 'joao.ger@algafood.com', '48 998881453', '08952137965', 'Florianópolis', '38400-999', 'Rua João Pinheiro', '1000',
-        'Proximo a lagoa', 'Centro', 'mizinha1', 'MASCULINO', 'CEM');
+        'Proximo a lagoa', 'Centro', 'mizaelzinho1', 'MASCULINO', 'CEM');
 
 insert into cliente (id, nome, sobrenome, email, celular, cpf, endereco_cidade_nome, endereco_cep, endereco_logradouro, endereco_numero,
                      endereco_complemento, endereco_bairro, senha, genero, velocidade_internet)
