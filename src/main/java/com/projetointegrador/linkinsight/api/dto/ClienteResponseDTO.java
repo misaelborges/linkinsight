@@ -17,6 +17,5 @@ public class ClienteResponseDTO {
     private Endereco endereco;
     private String senha;
     private Genero genero;
-    private VelocidadeInternet velocidadeInternet;
     private Boolean ativo;
 }

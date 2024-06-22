@@ -38,8 +38,5 @@ public class ClienteRequestDTO {
     @Enumerated(EnumType.STRING)
     private Genero genero;
 
-    @Enumerated(EnumType.STRING)
-    private VelocidadeInternet velocidadeInternet = VelocidadeInternet.CEM;
-
     private Boolean ativo = true;
 }
