@@ -1,5 +1,6 @@
 package com.projetointegrador.linkinsight.api.dto;
 
+import com.projetointegrador.linkinsight.domain.models.Cidade;
 import com.projetointegrador.linkinsight.domain.models.Endereco;
 import com.projetointegrador.linkinsight.domain.models.Genero;
 import com.projetointegrador.linkinsight.domain.models.VelocidadeInternet;
@@ -32,11 +33,12 @@ public class ClienteRequestDTO {
     @Embedded
     private Endereco endereco;
 
+    @Embedded
+    private Cidade cidade;
+
     @NotBlank
     private String senha;
 
     @Enumerated(EnumType.STRING)
     private Genero genero;
-
-    private Boolean ativo = true;
 }

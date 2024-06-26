@@ -11,7 +11,4 @@ public class Endereco {
     @NotBlank
     @Column(name = "endereco_logradouro")
     private String logradouro;
-
-    @Embedded
-    private Cidade cidade;
 }

@@ -17,14 +17,6 @@ public class ClienteService {
         return clienteRepository.save(cliente);
     }
 
-    public void desativarCliente(Long id) {
-        Cliente cliente = buscador(id);
-        if (!cliente.getAtivo()) {
-            throw new NegocioException("Cliente já esta desativado");
-        }
-        cliente.setAtivo(false);
-    }
-
     public Cliente buscador(Long id) {
         return clienteRepository.findById(id).orElseThrow(() -> new ClienteNaoEncontradoException(id));
     }

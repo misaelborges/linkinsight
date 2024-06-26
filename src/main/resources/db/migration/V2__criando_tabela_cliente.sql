@@ -5,7 +5,6 @@ create table cliente (
     email varchar(255) not null,
     celular varchar(255) not null,
     cpf varchar(255) not null,
-    ativo bit,
     endereco_cidade_nome varchar(255) not null,
     endereco_logradouro varchar(255),
     senha varchar(255) not null,

@@ -34,15 +34,13 @@ public class Cliente {
     @Embedded
     private Endereco endereco;
 
+    @Embedded
+    private Cidade cidade;
+
     @NotBlank
     private String senha;
 
     @Enumerated(EnumType.STRING)
     private Genero genero;
 
-    private Boolean ativo = true;
-
-    public void desativar() {
-        this.ativo = false;
-    }
 }

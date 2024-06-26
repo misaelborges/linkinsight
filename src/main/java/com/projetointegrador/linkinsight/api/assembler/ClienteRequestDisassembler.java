@@ -19,7 +19,7 @@ public class ClienteRequestDisassembler {
 
     public void copyToDomainObject(ClienteRequestDTO clienteRequestDTO, Cliente cliente) {
         if (cliente.getEndereco() != null) {
-            cliente.getEndereco().setCidade(new Cidade());
+            cliente.setCidade(new Cidade());
         }
 
         modelMapper.map(clienteRequestDTO, cliente);
