@@ -3,7 +3,6 @@ package com.projetointegrador.linkinsight.api.dto;
 import com.projetointegrador.linkinsight.domain.models.Cidade;
 import com.projetointegrador.linkinsight.domain.models.Endereco;
 import com.projetointegrador.linkinsight.domain.models.Genero;
-import com.projetointegrador.linkinsight.domain.models.VelocidadeInternet;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
